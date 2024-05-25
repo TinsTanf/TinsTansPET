@@ -132,3 +132,118 @@ nav.sticky {
     align-items: center;
     background-image: url("img/hero-background-image.png");
 }
+
+.hero-headlines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 750px;
+    text-align: center;
+}
+
+.hero-headlines h1 {
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.hero-headlines p {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hero-headlines-buttons {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.btn-3{
+    width: 205px;
+    height: 53px;
+    background-color: var(--black);
+    font-size: 24px;
+    color: white;
+    border-radius: 12px;
+    border: 1px solid var(--black);
+    transition: all 0.2s ease-out;
+}
+
+.btn-3:hover {
+    background-color: var(--accent);
+    border: 1px solid var(--accent);
+}
+
+.btn-transparent{
+    background-color: transparent;
+    color: var(--black);
+}
+
+.btn-transparent:hover {
+    background-color: var(--accent);
+    color: white;
+}
+
+.hero-images {
+    display: flex;
+    margin-top: 56px;
+    gap: 35px;
+}
+
+
+/* Requirements Section */
+.requirements{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url("img/requirements-background-img.png");
+}
+
+.requirements-headlines {
+    width: 658px;
+}
+
+.requirements-headlines h1 {
+    font-size: 96px;
+    font-weight: 900;
+}
+
+.requirements-headlines p {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 49px;
+}
+
+.r-item-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.r-item {
+    display: flex;
+    margin: 5px;
+    gap: 18px;
+    align-items: center;
+}
+
+.r-logo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--black);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.r-logo i {
+    font-size: 28px;
+}
+
+.r-item h5 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
