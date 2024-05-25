@@ -352,3 +352,68 @@ nav.sticky {
 .about-headlines button {
     margin-top: 48px ;
 }
+
+/* Testimonials Section */
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.testimonials h6 {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--accent);
+}
+
+.testimonials h1 {
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.testimony-container {
+    display: flex;
+    margin-top: 34px;
+    gap: 24px;
+}
+
+.testimony-item {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    height: 222px;
+    border: 1px solid var(--black);
+    border-radius: 12px;
+    padding: 24px 32px;
+}
+
+.testimony-people {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimony-people i {
+    font-size: 50px;
+    color: #ff5353;
+}
+.testimony-name {
+    display: flex;
+    gap: 14px;
+}
+
+.testimony-name h4 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.testimony-name p {
+    opacity: 0.8;
+}
+
+.testimonials-text {
+    font-weight: 600;
+    margin-top: 28px;
+}
+
